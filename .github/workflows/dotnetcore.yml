@@ -26,4 +26,4 @@ jobs:
       env:
         'Microservice:InstrumentationKey': ${{ secrets.InstrumentationKey }}
         'Microservice:DirectoryId': ${{ secrets.DirectoryId }}
-        'Microservice.Audience': ${{ secrets.Audience }}
+        'Microservice:Audience': ${{ secrets.Audience }}
