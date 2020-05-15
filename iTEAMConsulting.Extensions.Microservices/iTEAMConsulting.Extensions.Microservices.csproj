@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/iteam-consulting/extensions-microservices</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/iteam-consulting/extensions-microservices</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aspnetcore, aspnet, dotnet, microservices</PackageTags>
+    <Authors>iTEAM Consulting &lt;software@iteamnm.com&gt;</Authors>
+    <Company>iTEAM Consulting LLC</Company>
+    <Product>iTEAMConsulting.Extensions.Microservices</Product>
+    <Copyright>2020 iTEAM Consulting LLC, All Rights Reserved</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
