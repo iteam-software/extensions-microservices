@@ -7,10 +7,11 @@
     <RepositoryUrl>https://github.com/iteam-consulting/extensions-microservices</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore, aspnet, dotnet, microservices</PackageTags>
-    <Authors>iTEAM Consulting &lt;software@iteamnm.com&gt;</Authors>
+    <Authors>iTEAM Consulting</Authors>
     <Company>iTEAM Consulting LLC</Company>
     <Product>iTEAMConsulting.Extensions.Microservices</Product>
     <Copyright>2020 iTEAM Consulting LLC, All Rights Reserved</Copyright>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
