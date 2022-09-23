@@ -31,7 +31,7 @@ namespace iTEAMConsulting.Extensions.Microservices
 
       services.AddMvc();
 
-      services.AddApplicationInsightsTelemetry(options.InstrumentationKey);
+      services.AddApplicationInsightsTelemetry();
 
       services
         .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
