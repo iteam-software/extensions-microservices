@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace iTEAMConsulting.Extensions.Microservices
+﻿namespace iTEAMConsulting.Extensions.Microservices
 {
   public static class MicroserviceDefaults
   {
