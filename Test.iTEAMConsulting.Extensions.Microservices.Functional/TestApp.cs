@@ -36,7 +36,7 @@ namespace Test.iTEAMConsulting.Extensions.Microservices.Functional
       return Host.CreateDefaultBuilder()
         .ConfigureAppConfiguration(config =>
         {
-          config.AddJsonFile("appsettings.Local.json");
+          config.AddJsonFile("appsettings.json");
         })
         .ConfigureWebHostDefaults(builder =>
         {
