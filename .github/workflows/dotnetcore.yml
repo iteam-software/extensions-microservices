@@ -23,7 +23,3 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-      env:
-        'Microservice:InstrumentationKey': ${{ secrets.InstrumentationKey }}
-        'Microservice:DirectoryId': ${{ secrets.DirectoryId }}
-        'Microservice:Audience': ${{ secrets.Audience }}
