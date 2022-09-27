@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/iteam-consulting/extensions-microservices</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/iteam-consulting/extensions-microservices</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/iteam-software/extensions-microservices</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/iteam-software/extensions-microservices</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore, aspnet, dotnet, microservices</PackageTags>
     <Authors>iTEAM Consulting</Authors>
     <Company>iTEAM Consulting LLC</Company>
     <Product>iTEAMConsulting.Extensions.Microservices</Product>
-    <Copyright>2020 iTEAM Consulting LLC, All Rights Reserved</Copyright>
-    <Version>1.0.0</Version>
+    <Copyright>2022 iTEAM Consulting LLC, All Rights Reserved</Copyright>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.29" />
   </ItemGroup>
 
 </Project>

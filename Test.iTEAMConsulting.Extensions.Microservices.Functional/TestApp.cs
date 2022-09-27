@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace Test.iTEAMConsulting.Extensions.Microservices.Functional
 {
@@ -37,7 +36,7 @@ namespace Test.iTEAMConsulting.Extensions.Microservices.Functional
       return Host.CreateDefaultBuilder()
         .ConfigureAppConfiguration(config =>
         {
-          config.AddEnvironmentVariables();
+          config.AddJsonFile("appsettings.json");
         })
         .ConfigureWebHostDefaults(builder =>
         {
