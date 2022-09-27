@@ -14,11 +14,6 @@ namespace iTEAMConsulting.Extensions.Microservices
     /// <returns></returns>
     public static IServiceCollection AddMicroservice(this IServiceCollection services, MicroserviceOptions options)
     {
-      if (string.IsNullOrEmpty(options.InstrumentationKey))
-      {
-        throw new ArgumentNullException(nameof(options.InstrumentationKey));
-      }
-
       if (string.IsNullOrEmpty(options.DirectoryId))
       {
         throw new ArgumentNullException(nameof(options.DirectoryId));
@@ -31,7 +26,7 @@ namespace iTEAMConsulting.Extensions.Microservices
 
       services.AddMvc();
 
-      services.AddApplicationInsightsTelemetry(options.InstrumentationKey);
+      services.AddApplicationInsightsTelemetry();
 
       services
         .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
